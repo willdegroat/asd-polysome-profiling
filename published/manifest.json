@@ -1456,6 +1456,181 @@
       "sha256": "b524cbb5d39ef49359dc9e25ce10d678a38f70be94947c2cc42f94235aba7a95",
       "archiveSHA256": "9f69781c29dbb547145ded5b8375fd5dfcf7f094a3f27e69c8f0809bfcd34d23",
       "bytes": 1289
+    },
+    {
+      "path": "data/Input/multiqc_report.html",
+      "archive": "published/data/Input/multiqc_report.html.gz",
+      "sha256": "8da0c47c1ba8305ac5ce848d43d950aa3a6529e1b6dace2228990727c34d561e",
+      "archiveSHA256": "85054fd2588abcced326169494b81b646be26800b2e901b37ce997e23dc35efd",
+      "bytes": 3783586
+    },
+    {
+      "path": "data/Input/salmon.merged.gene_counts.tsv",
+      "archive": "published/data/Input/salmon.merged.gene_counts.tsv.gz",
+      "sha256": "7b91b2c09281a4650041008cc8c6ad1790e355573af2aac8f105f4df1cc221f3",
+      "archiveSHA256": "a1492343f64440d1b3a9147ef652511eebe9809ea08db6d89831e63f0556f110",
+      "bytes": 4171571
+    },
+    {
+      "path": "data/Input/salmon.merged.gene_counts_length_scaled.tsv",
+      "archive": "published/data/Input/salmon.merged.gene_counts_length_scaled.tsv.gz",
+      "sha256": "6c11cc38c571c5fdb5380e919730db2e89906acbaaeb0cfb3988996368fb4e8a",
+      "archiveSHA256": "7fa130e6fa8f19959813e71da2af35a5edf7186d4173901e765658deec443bb6",
+      "bytes": 6554504
+    },
+    {
+      "path": "data/Input/salmon.merged.gene_lengths.tsv",
+      "archive": "published/data/Input/salmon.merged.gene_lengths.tsv.gz",
+      "sha256": "87ebd129356d31bfccf9f858d6075ec521ebda5e0ace40cf6de05cc22ab99b5b",
+      "archiveSHA256": "f5e84cc1e45d719ef48001f81f59e74125134b28267761704abcdfb1aac2afd9",
+      "bytes": 10046804
+    },
+    {
+      "path": "data/Input/salmon.merged.gene_tpm.tsv",
+      "archive": "published/data/Input/salmon.merged.gene_tpm.tsv.gz",
+      "sha256": "7d871c660b73e3dca2bd0bd53ea3546450a428c67ceedf92ecd47babd0a6b552",
+      "archiveSHA256": "dd6ce280c8ed7e57831e1a955c95c72a10077cf618ba8c8111c21fd473f10af6",
+      "bytes": 4949527
+    },
+    {
+      "path": "data/Input/salmon.merged.transcript_counts.tsv",
+      "archive": "published/data/Input/salmon.merged.transcript_counts.tsv.gz",
+      "sha256": "8147c0ef3d545e23d40b4eee082d3f9b760650f27a03d1222c8b0385553da45a",
+      "archiveSHA256": "b6a786b145ee134566177439ac4ae8b76d40df9bf83258cbd5f4bafc66291d8d",
+      "bytes": 38301304
+    },
+    {
+      "path": "data/Input/salmon.merged.transcript_lengths.tsv",
+      "archive": "published/data/Input/salmon.merged.transcript_lengths.tsv.gz",
+      "sha256": "e5b7ba4b1abe928dc68dbb57c1c969a4e3fe9d806a875c598c2f57b08d43e6fe",
+      "archiveSHA256": "72b0d20e0919f6e656057d7cd265831d7ccee53805dd17a36151384b4ea21c03",
+      "bytes": 61709929
+    },
+    {
+      "path": "data/Input/salmon.merged.transcript_tpm.tsv",
+      "archive": "published/data/Input/salmon.merged.transcript_tpm.tsv.gz",
+      "sha256": "73168de9b519205e5d4105d9b64f1971ac5042662e619943689c620547f521b3",
+      "archiveSHA256": "0e66160118119e73e6c14df61682345d82cdf3a826d44cb94e59755128218e27",
+      "bytes": 41076633
+    },
+    {
+      "path": "data/Monosome/multiqc_report.html",
+      "archive": "published/data/Monosome/multiqc_report.html.gz",
+      "sha256": "ac6c38374fa600c980b467a822d33aacad87e7f3792a7a098e2217a8557f022c",
+      "archiveSHA256": "1e56727213996362a32adc3d5fc9ca44a6acb3e73d51540d9176e67d89fdf63a",
+      "bytes": 3780057
+    },
+    {
+      "path": "data/Monosome/salmon.merged.gene_counts.tsv",
+      "archive": "published/data/Monosome/salmon.merged.gene_counts.tsv.gz",
+      "sha256": "4b72278d832c6c54f0d8794063d1b84881705c1d0e2ead162343649521d7f3ea",
+      "archiveSHA256": "879e58ed1602db9d2155bee0a5de0f55e52063e5158fbfd4d6c40277ab1f0720",
+      "bytes": 4080026
+    },
+    {
+      "path": "data/Monosome/salmon.merged.gene_counts_length_scaled.tsv",
+      "archive": "published/data/Monosome/salmon.merged.gene_counts_length_scaled.tsv.gz",
+      "sha256": "3ebb2a2f1d5e3b267d9440057ef75d7e98579cb662698c5983f94f103ab1c465",
+      "archiveSHA256": "da54da5b82b22af721566439f555abb79aa5cf11393359070e20a698147e5aa0",
+      "bytes": 6143276
+    },
+    {
+      "path": "data/Monosome/salmon.merged.gene_lengths.tsv",
+      "archive": "published/data/Monosome/salmon.merged.gene_lengths.tsv.gz",
+      "sha256": "3fc7921558f7dd6b7be716589f5a0db7d7225d6dc5f42c37ae648610028085ce",
+      "archiveSHA256": "7c37563a4d220ee1a01c67852bea4059339daf772458f0dbee8ad8d868731260",
+      "bytes": 10431002
+    },
+    {
+      "path": "data/Monosome/salmon.merged.gene_tpm.tsv",
+      "archive": "published/data/Monosome/salmon.merged.gene_tpm.tsv.gz",
+      "sha256": "f58f129b72ca77d2e371b4307936fa256687b32e4d4a9634be6dca747b363d42",
+      "archiveSHA256": "d6ff7b86aacb492121846b20b294ec348ec4eaaa6de34432515d5aaab482a5d3",
+      "bytes": 4744394
+    },
+    {
+      "path": "data/Monosome/salmon.merged.transcript_counts.tsv",
+      "archive": "published/data/Monosome/salmon.merged.transcript_counts.tsv.gz",
+      "sha256": "fb1c0948fb1860411478d4428d74f466847d3dfdcea53a507827b14c99893bb6",
+      "archiveSHA256": "df5a4d53f7a26f35e3377c0b2ef715bed50e277adbffc6f919a2f06e5868ff95",
+      "bytes": 36686634
+    },
+    {
+      "path": "data/Monosome/salmon.merged.transcript_lengths.tsv",
+      "archive": "published/data/Monosome/salmon.merged.transcript_lengths.tsv.gz",
+      "sha256": "650412d753473bc501cb80543509677d09e9380c99712763f855fe05d4d37233",
+      "archiveSHA256": "41f7e15c74128cb8a549c37bfd076da6aa92d1dcb9b7a90509097459cf6bae09",
+      "bytes": 61314004
+    },
+    {
+      "path": "data/Monosome/salmon.merged.transcript_tpm.tsv",
+      "archive": "published/data/Monosome/salmon.merged.transcript_tpm.tsv.gz",
+      "sha256": "824313bd8926152d0db7710a8c06cd05c6becd29f27957135e16fa0cf002ff2c",
+      "archiveSHA256": "a292f4aef556302424005ed17ba65871256f5b4e8d72e679065f87eead33ba24",
+      "bytes": 38445430
+    },
+    {
+      "path": "data/Polysome/multiqc_report.html",
+      "archive": "published/data/Polysome/multiqc_report.html.gz",
+      "sha256": "1b897077bdb4c9f07c6a30820ca94eef7aef0d3e2d3bfb48a65cbe7b1bd1af5e",
+      "archiveSHA256": "7f592eef49580d4c2159de282ca629844bf505d87e243d3cc0aa0a4107303a8c",
+      "bytes": 3836226
+    },
+    {
+      "path": "data/Polysome/salmon.merged.gene_counts.tsv",
+      "archive": "published/data/Polysome/salmon.merged.gene_counts.tsv.gz",
+      "sha256": "d704faef0c85e6ed2be860393255917e45ab8e8800c63b46bf5b3396ed442179",
+      "archiveSHA256": "7e42ae92866af319bced2cb453775a608697da8c169a725bcc8fced6611ce7fe",
+      "bytes": 4100889
+    },
+    {
+      "path": "data/Polysome/salmon.merged.gene_counts_length_scaled.tsv",
+      "archive": "published/data/Polysome/salmon.merged.gene_counts_length_scaled.tsv.gz",
+      "sha256": "29c7fc385b02a5e3742118f1006f845e63766f4195cf671a8fd222f284774d3b",
+      "archiveSHA256": "72f2bc2a99c36b1731c94d40e251e2eae0d32bff24ad72695990e74fcb85b58b",
+      "bytes": 6205839
+    },
+    {
+      "path": "data/Polysome/salmon.merged.gene_lengths.tsv",
+      "archive": "published/data/Polysome/salmon.merged.gene_lengths.tsv.gz",
+      "sha256": "7259470c34bc4f6199aa1475aa8099c2f72cbaba2572b8b123c40166a5864161",
+      "archiveSHA256": "b1371e256be2e1e0d7f8e02babe3cf98afef01cc4de569e08422e8e73058fdee",
+      "bytes": 10407162
+    },
+    {
+      "path": "data/Polysome/salmon.merged.gene_tpm.tsv",
+      "archive": "published/data/Polysome/salmon.merged.gene_tpm.tsv.gz",
+      "sha256": "aaada2909694ccb6073bfc15345cb847ae5aead2f5555e410dd33d8322cf10b4",
+      "archiveSHA256": "59a4e0b8e002f9ee875e629a790d380725c499d18b959088958b9d441bc9e551",
+      "bytes": 4787870
+    },
+    {
+      "path": "data/Polysome/salmon.merged.transcript_counts.tsv",
+      "archive": "published/data/Polysome/salmon.merged.transcript_counts.tsv.gz",
+      "sha256": "0c5e799a6b7a598bf9d09202ebbc144981e4ef227d10a2a8801c72581aefe914",
+      "archiveSHA256": "87a6051e094fa1032954b07d6292441949345ed389a461b6473257283118e98c",
+      "bytes": 37012985
+    },
+    {
+      "path": "data/Polysome/salmon.merged.transcript_lengths.tsv",
+      "archive": "published/data/Polysome/salmon.merged.transcript_lengths.tsv.gz",
+      "sha256": "bb773bc958f7e62523a1d720072fdf7b12dbd770c0359bb22685b6355be61cbd",
+      "archiveSHA256": "e2f2426fcb7dbfa10eb13c5c520f8bb20940440b586e656d5d2b844a26867554",
+      "bytes": 62125922
+    },
+    {
+      "path": "data/Polysome/salmon.merged.transcript_tpm.tsv",
+      "archive": "published/data/Polysome/salmon.merged.transcript_tpm.tsv.gz",
+      "sha256": "2ead9b133f74ca10d5846c096e1fafb2549ef2ffc49e76085f735ed70928286e",
+      "archiveSHA256": "c40c3931d1edea672e1466f00d32a442709fb7d074119cbc236b61933af2e809",
+      "bytes": 39008269
+    },
+    {
+      "path": "data/reference/fu2022SupplementaryTables.xlsx",
+      "archive": "published/data/reference/fu2022SupplementaryTables.xlsx.gz",
+      "sha256": "d9b422b6590def55f90a716b826c04b5e479dbf6c433990be47692db6e4ce0c4",
+      "archiveSHA256": "e0be26368764d12cfd504e788ded2ef2ee2cebefa7b7089508e931276f2b2902",
+      "bytes": 16750972
     }
   ],
   "inputs": {
@@ -1570,10 +1745,6 @@
     "data/Polysome/salmon.merged.transcript_tpm.tsv": {
       "bytes": 39008269,
       "sha256": "2ead9b133f74ca10d5846c096e1fafb2549ef2ffc49e76085f735ed70928286e"
-    },
-    "data/README.md": {
-      "bytes": 936,
-      "sha256": "9ac6f3a6d5352a59a3c5d1f00656145d54d1b5757b6fbf380d9678d161502524"
     },
     "data/reference/fu2022SupplementaryTables.xlsx": {
       "bytes": 16750972,

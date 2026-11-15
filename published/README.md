@@ -16,8 +16,9 @@ record used by the manuscript.
 
 The archive includes all primary analysis outputs, supplementary/null findings,
 architecture follow-up models and controlled refits, individual-panel source data,
-and all three benchmark result sets. It excludes raw sequence reads, large
-quantification inputs, local Python environments, and temporary renderings.
+and all three benchmark result sets. It also includes all processed quantification matrices, MultiQC reports, and
+the Fu supplementary workbook. It excludes raw sequence reads, large reference
+files, local Python environments, and temporary renderings.
 
 The original combined-PCA export had a duplicate `sampleId` header. The untouched
 export is retained, alongside `manuscript/source_data/1E/PCA_scores.csv`, which

@@ -37,13 +37,13 @@ python scripts/run_notebooks.py
 | `02_qc.ipynb` | Library and sample-level quality control |
 | `03_expression.ipynb` | Input RNA differential expression |
 | `04_fractions.ipynb` | Monosome and polysome differential abundance |
-| `05_redistribution.ipynb` | Paired polysome–monosome modeling with Monopoly |
+| `05_redistribution.ipynb` | Paired polysomeâ€“monosome modeling with Monopoly |
 | `06_sensitivity.ipynb` | Culture, normalization, and label sensitivity |
 | `07_enrichment.ipynb` | Ranked enrichment and overrepresentation analysis |
 | `08_integration.ipynb` | Cross-layer gene and pathway integration |
 | `09_transcripts.ipynb` | Differential transcript abundance |
 | `10_usage.ipynb` | Differential transcript usage with satuRn and stageR |
-| `11_architecture.ipynb` | Transcript and 5′ UTR architecture |
+| `11_architecture.ipynb` | Transcript and 5â€² UTR architecture |
 | `12_convergence.ipynb` | Fu et al. ASD-gene convergence |
 
 Gene-level models use Salmon length-scaled counts and PyDESeq2. Monopoly fits
@@ -76,13 +76,15 @@ with the DTU results.
 ## Data and results
 
 The required input layout is documented in [`data/README.md`](data/README.md).
-Large quantification and reference files are intentionally excluded from Git.
+Processed quantification matrices are included as compressed archives. Large
+reference files remain external.
 Pinned gene-set collections and deidentified sample metadata are versioned.
 
 All derived tables and diagnostic files are written to `results/`. Frozen copies
 in `published/` retain all analyses, including null findings and sensitivity
-checks. Large quantification matrices and reference sequences are not included;
-the required input files and their SHA-256 fingerprints are documented separately.
+checks. Processed expression matrices and QC inputs are included in the same
+archive. Large references remain external; the input layout and SHA-256
+fingerprints are documented separately.
 
 Monopoly uses a shared-dispersion working model. The benchmark demonstrates that
 unequal dispersions can inflate false-discovery rates. RNA redistribution does

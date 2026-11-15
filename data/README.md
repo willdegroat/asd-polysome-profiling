@@ -1,8 +1,14 @@
 # Data layout
 
-`metadata.tsv` and `geneSets/` are versioned with the analysis. Place the
-unversioned nf-core/rnaseq outputs and reference files at the paths below before
-running the notebooks.
+`metadata.tsv` and `geneSets/` are versioned with the analysis. All processed
+expression matrices, MultiQC reports, and the Fu supplementary workbook are
+included under `published/data/` as checksum-verified gzip files. Restore their
+original paths before running the notebooks:
+
+```console
+python scripts/restore_results.py
+python scripts/verify_manuscript.py
+```
 
 Each of `Input/`, `Monosome/`, and `Polysome/` requires:
 
@@ -15,7 +21,8 @@ Each of `Input/`, `Monosome/`, and `Polysome/` requires:
 - `salmon.merged.transcript_lengths.tsv`
 - `salmon.merged.transcript_tpm.tsv`
 
-`reference/` requires:
+The Fu workbook is restored automatically. The large reference files remain
+external. `reference/` requires:
 
 - `fu2022SupplementaryTables.xlsx`, Supplementary Data from Fu et al. 2022
 - `gencode.v50.primary_assembly.annotation.gtf`
@@ -24,3 +31,13 @@ Each of `Input/`, `Monosome/`, and `Polysome/` requires:
 
 The sample columns in every matrix must match `metadata.tsv`. Expected prefixes
 are `input`, `mono`, and `poly` for the three respective RNA pools.
+
+GENCODE v50 references are available from the official release directory:
+<https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/>.
+Use `gencode.v50.primary_assembly.annotation.gtf.gz` for the annotation. The
+sequence analysis originally used the run-matched `genome.transcripts.fa` from
+nf-core/rnaseq reference preparation. A differently prepared FASTA may not have
+identical identifiers or contents; Notebook 11 validates sequence/annotation
+concordance. Archived sequence-derived tables and the matched-sequence cache
+allow the final architecture models to be reproduced without regenerating these
+large references.
