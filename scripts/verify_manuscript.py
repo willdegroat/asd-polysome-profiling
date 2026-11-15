@@ -22,7 +22,8 @@ def verify() -> None:
     for name, record in manifest['inputs'].items():
         path = ROOT / name
         if path.exists():
-            assert hashlib.sha256(path.read_bytes()).hexdigest() == record['sha256'], path
+            digest = hashlib.sha256(path.read_bytes()).hexdigest()
+            assert digest == record['sha256'], path
     for record in manifest['files']:
         path = ROOT / record['path']
         if not path.exists():
