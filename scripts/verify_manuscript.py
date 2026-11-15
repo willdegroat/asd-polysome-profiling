@@ -19,6 +19,10 @@ def read_result(name: str) -> pd.DataFrame:
 def verify() -> None:
     """Check frozen files, discovery counts, selections, and testing families."""
     manifest = json.loads((ROOT / 'published/manifest.json').read_text())
+    for name, record in manifest['inputs'].items():
+        path = ROOT / name
+        if path.exists():
+            assert hashlib.sha256(path.read_bytes()).hexdigest() == record['sha256'], path
     for record in manifest['files']:
         path = ROOT / record['path']
         if not path.exists():
