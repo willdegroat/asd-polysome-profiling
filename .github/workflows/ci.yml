@@ -1,0 +1,25 @@
+name: Verify manuscript results
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt ruff pytest
+      - run: python -m ruff check .
+      - run: python scripts/restore_results.py
+      - run: python scripts/verify_manuscript.py
+      - run: python scripts/matched_utr3.py
+      - run: python scripts/make_table_1.py
+      - run: python -m pytest -q

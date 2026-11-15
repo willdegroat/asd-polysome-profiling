@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: Please cite this repository and the associated publication.
+title: ASD Polysome Profiling
+type: software
+authors:
+  - family-names: DeGroat
+    given-names: William
+  - family-names: Kreimer
+    given-names: Anat
+repository-code: https://github.com/willdegroat/asd-polysome-profiling
+license: MIT

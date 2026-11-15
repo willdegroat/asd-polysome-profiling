@@ -1,0 +1,99 @@
+{
+  "annotation": {
+    "path": "data/reference/gencode.v50.primary_assembly.annotation.gtf",
+    "bytes": 4688772094,
+    "modifiedNS": 1787954348078430100,
+    "release": "GENCODE v50, GRCh38, Ensembl 116"
+  },
+  "PMsourceSHA256": "a1dd86adc615e878f752c483b241dee7453b9b8a929156e1d93fa8289ddba0f7",
+  "records": {
+    "ENSG00000175130.9": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "MARCKSL1"
+    },
+    "ENSG00000162643.15": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "DNAI3"
+    },
+    "ENSG00000303764.1": {
+      "geneType": "lncRNA",
+      "annotationGeneName": "ENSG00000303764"
+    },
+    "ENSG00000115884.13": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "SDC1"
+    },
+    "ENSG00000230606.12": {
+      "geneType": "lncRNA",
+      "annotationGeneName": "APPAT"
+    },
+    "ENSG00000247796.3": {
+      "geneType": "lncRNA",
+      "annotationGeneName": "MOCS2-DT"
+    },
+    "ENSG00000181965.6": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "NEUROG1"
+    },
+    "ENSG00000274641.2": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "H2BC17"
+    },
+    "ENSG00000253636.2": {
+      "geneType": "lncRNA",
+      "annotationGeneName": "ENSG00000253636"
+    },
+    "ENSG00000136868.13": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "SLC31A1"
+    },
+    "ENSG00000138136.9": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "LBX1"
+    },
+    "ENSG00000165462.6": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "PHOX2A"
+    },
+    "ENSG00000089154.13": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "GCN1"
+    },
+    "ENSG00000256802.4": {
+      "geneType": "lncRNA",
+      "annotationGeneName": "LCIIAR"
+    },
+    "ENSG00000175643.11": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "RMI2"
+    },
+    "ENSG00000169246.17": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "NPIPB3"
+    },
+    "ENSG00000129244.11": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "ATP1B2"
+    },
+    "ENSG00000131747.17": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "TOP2A"
+    },
+    "ENSG00000105514.10": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "RAB3D"
+    },
+    "ENSG00000132010.17": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "ZNF20"
+    },
+    "ENSG00000100154.16": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "TTC28"
+    },
+    "ENSG00000292338.2": {
+      "geneType": "protein_coding",
+      "annotationGeneName": "DHRSX"
+    }
+  }
+}

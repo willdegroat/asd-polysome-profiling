@@ -1,0 +1,164 @@
+{
+  "sourcePresentation": "1-Dshj7DrTe-sjq1DdAH03DYse-tjocEs6G-hMv9uWUA",
+  "sourceSlide": "g3f40f114cff_1_41",
+  "icons": [
+    {
+      "objectId": "g3f40f114cff_1_282",
+      "size": {
+        "width": {
+          "magnitude": 3000000,
+          "unit": "EMU"
+        },
+        "height": {
+          "magnitude": 3000000,
+          "unit": "EMU"
+        }
+      },
+      "transform": {
+        "scaleX": 0.0549,
+        "scaleY": 0.0549,
+        "translateX": 1291437.5,
+        "translateY": 2247069.9075,
+        "unit": "EMU"
+      },
+      "shape": {
+        "shapeType": "ROUND_RECTANGLE",
+        "shapeProperties": {
+          "shapeBackgroundFill": {
+            "solidFill": {
+              "color": {
+                "rgbColor": {
+                  "red": 0.5764706,
+                  "green": 0.76862746,
+                  "blue": 0.49019608
+                }
+              },
+              "alpha": 1
+            }
+          },
+          "outline": {
+            "outlineFill": {
+              "solidFill": {
+                "color": {
+                  "rgbColor": {
+                    "red": 0.5764706,
+                    "green": 0.76862746,
+                    "blue": 0.49019608
+                  }
+                },
+                "alpha": 1
+              }
+            },
+            "weight": {
+              "magnitude": 11450,
+              "unit": "EMU"
+            },
+            "dashStyle": "SOLID"
+          },
+          "shadow": {
+            "type": "OUTER",
+            "transform": {
+              "scaleX": 1,
+              "scaleY": 1,
+              "unit": "EMU"
+            },
+            "alignment": "BOTTOM_LEFT",
+            "blurRadius": {
+              "unit": "EMU"
+            },
+            "color": {
+              "rgbColor": {}
+            },
+            "alpha": 1,
+            "rotateWithShape": false,
+            "propertyState": "NOT_RENDERED"
+          },
+          "contentAlignment": "MIDDLE",
+          "autofit": {
+            "autofitType": "NONE",
+            "fontScale": 1
+          }
+        }
+      }
+    },
+    {
+      "objectId": "g3f40f114cff_1_283",
+      "size": {
+        "width": {
+          "magnitude": 3000000,
+          "unit": "EMU"
+        },
+        "height": {
+          "magnitude": 3000000,
+          "unit": "EMU"
+        }
+      },
+      "transform": {
+        "scaleX": 0.0549,
+        "scaleY": 0.0549,
+        "translateX": 1291437.5,
+        "translateY": 2036675,
+        "unit": "EMU"
+      },
+      "shape": {
+        "shapeType": "ELLIPSE",
+        "shapeProperties": {
+          "shapeBackgroundFill": {
+            "solidFill": {
+              "color": {
+                "rgbColor": {
+                  "red": 0.5764706,
+                  "green": 0.76862746,
+                  "blue": 0.49019608
+                }
+              },
+              "alpha": 1
+            }
+          },
+          "outline": {
+            "outlineFill": {
+              "solidFill": {
+                "color": {
+                  "rgbColor": {
+                    "red": 0.5764706,
+                    "green": 0.76862746,
+                    "blue": 0.49019608
+                  }
+                },
+                "alpha": 1
+              }
+            },
+            "weight": {
+              "magnitude": 11450,
+              "unit": "EMU"
+            },
+            "dashStyle": "SOLID"
+          },
+          "shadow": {
+            "type": "OUTER",
+            "transform": {
+              "scaleX": 1,
+              "scaleY": 1,
+              "unit": "EMU"
+            },
+            "alignment": "BOTTOM_LEFT",
+            "blurRadius": {
+              "unit": "EMU"
+            },
+            "color": {
+              "rgbColor": {}
+            },
+            "alpha": 1,
+            "rotateWithShape": false,
+            "propertyState": "NOT_RENDERED"
+          },
+          "contentAlignment": "MIDDLE",
+          "autofit": {
+            "autofitType": "NONE",
+            "fontScale": 1
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "panel": "1A",
+    "file": "Figure_1A_study_design_analysis_polished_5x12.png",
+    "pixels": [
+      3000,
+      7200
+    ],
+    "inches": [
+      5.0,
+      12.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "d12126cf163b01a0db85d7d8ef4a189b93dc870467cca78c2bf2a5bda947ed38"
+  },
+  {
+    "panel": "1B",
+    "file": "Figure_1B_Input_PCA_5x2p9.png",
+    "pixels": [
+      3000,
+      1740
+    ],
+    "inches": [
+      5.0,
+      2.9
+    ],
+    "dpi": 600,
+    "rgbSHA256": "f2a02aff8e9c50a9765cb9b213c3884c3ec7145b42dd9312ca6002c661a41528"
+  },
+  {
+    "panel": "1C",
+    "file": "Figure_1C_Monosome_PCA_5x2p9.png",
+    "pixels": [
+      3000,
+      1740
+    ],
+    "inches": [
+      5.0,
+      2.9
+    ],
+    "dpi": 600,
+    "rgbSHA256": "ffe25e2867563b8466106cf7d34aceeee74e7da23ae8446db4b1f92dca46b230"
+  },
+  {
+    "panel": "1D",
+    "file": "Figure_1D_Polysome_PCA_5x2p9.png",
+    "pixels": [
+      3000,
+      1740
+    ],
+    "inches": [
+      5.0,
+      2.9
+    ],
+    "dpi": 600,
+    "rgbSHA256": "260fa53cb811c1c00c1714cebcaf2eaffdc90d4e309dfecb29b6128a77e39568"
+  },
+  {
+    "panel": "1E",
+    "file": "Figure_1E_all_fractions_PCA_5x2p9.png",
+    "pixels": [
+      3000,
+      1740
+    ],
+    "inches": [
+      5.0,
+      2.9
+    ],
+    "dpi": 600,
+    "rgbSHA256": "9fb86e51daea915574c2ce4cf227f66fd9ad5688fa7a468ae176fbf7f37aeef3"
+  },
+  {
+    "panel": "1legend",
+    "file": "Figure_1_shared_PCA_legend_5x0p4.png",
+    "pixels": [
+      3000,
+      240
+    ],
+    "inches": [
+      5.0,
+      0.4
+    ],
+    "dpi": 600,
+    "rgbSHA256": "d2aef325549224f65031eda846a63d0af1de64e0a55f8caf25166cdb7749b85b"
+  },
+  {
+    "panel": "2A",
+    "file": "Figure_2A_Input_volcano_titled_3x4.png",
+    "pixels": [
+      1800,
+      2400
+    ],
+    "inches": [
+      3.0,
+      4.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "837b75e14b10553ff1e1dbaa69de0386fa460a64f59c0876e5699c748f42a262"
+  },
+  {
+    "panel": "2B",
+    "file": "Figure_2B_Input_GO_ORA_titled_4x4.png",
+    "pixels": [
+      2400,
+      2400
+    ],
+    "inches": [
+      4.0,
+      4.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "0248636348d18a3f1dd7aff7a6021f5141e3d5b99d23ff1b0f7ed51d34ead385"
+  },
+  {
+    "panel": "2C",
+    "file": "Figure_2C_top10_protein_coding_paired_effects_titled_3x4.png",
+    "pixels": [
+      1800,
+      2400
+    ],
+    "inches": [
+      3.0,
+      4.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "27512abb4ef8cf4165c1db28423828e3b2d4637c1805bceac7a11606cbef4746"
+  },
+  {
+    "panel": "2D",
+    "file": "Figure_2D_PM_volcano_titled_4x4.png",
+    "pixels": [
+      2400,
+      2400
+    ],
+    "inches": [
+      4.0,
+      4.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "8c7480f64167fd657cb9dae1e0cb1be7e54a97dbd8bbf1753b23de23fea75a5a"
+  },
+  {
+    "panel": "2E",
+    "file": "Figure_2E_PHOX2A_fraction_shapes_titled_3x4.png",
+    "pixels": [
+      1800,
+      2400
+    ],
+    "inches": [
+      3.0,
+      4.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "a6bb714cfe951104a5f08c91d47d2503586c14827e3a3fed53e77d94c1b9bfc5"
+  },
+  {
+    "panel": "2F",
+    "file": "Figure_2F_TOP2A_fraction_shapes_titled_3x4.png",
+    "pixels": [
+      1800,
+      2400
+    ],
+    "inches": [
+      3.0,
+      4.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "f5eb0f6b872cae3db49680fd76e31d2c92725eb2ce3294a8b1ac39abdffe24e9"
+  },
+  {
+    "panel": "2G",
+    "file": "Figure_2G_ASD_gene_enrichment_titled_5x1p5.png",
+    "pixels": [
+      3000,
+      900
+    ],
+    "inches": [
+      5.0,
+      1.5
+    ],
+    "dpi": 600,
+    "rgbSHA256": "977f91af8701e5f443e260f2e94d8adb969b565b7128a19ec81fa30642ef66b7"
+  },
+  {
+    "panel": "2H",
+    "file": "Figure_2H_sample_omission_titled_5x2.png",
+    "pixels": [
+      3000,
+      1200
+    ],
+    "inches": [
+      5.0,
+      2.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "4ebb492083bd2a22d836126c4abf8a1771a63f46b4e0747314f0412a3f21ab9a"
+  },
+  {
+    "panel": "2I",
+    "file": "Figure_2I_SynGO_Fu_dotplot_titled_5x4.png",
+    "pixels": [
+      3000,
+      2400
+    ],
+    "inches": [
+      5.0,
+      4.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "0cb5e2438629575dd8ff93fb4498bb2ef0be07a28d0a248226b800eade71e566"
+  },
+  {
+    "panel": "2legend",
+    "file": "Figure_2_GHI_shared_NES_bar_5x0p5.png",
+    "pixels": [
+      3000,
+      300
+    ],
+    "inches": [
+      5.0,
+      0.5
+    ],
+    "dpi": 600,
+    "rgbSHA256": "4682a367bb3e486bb07264bbd98a2d7211e228b2d2ea53854c0827689ab6ad1f"
+  },
+  {
+    "panel": "3A",
+    "file": "Figure_3A_transcript_vs_gene_PM_evidence_clean_5x6.png",
+    "pixels": [
+      3000,
+      3600
+    ],
+    "inches": [
+      5.0,
+      6.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "4174b183bb78fa48ea29e6d2315d0dd290a25647d246e2665408d08a7056246c"
+  },
+  {
+    "panel": "3B",
+    "file": "Figure_3B_DLK1_transcript_effects_input_share_5x6.png",
+    "pixels": [
+      3000,
+      3600
+    ],
+    "inches": [
+      5.0,
+      6.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "863710368de5583a1b78649e693ff3cfa133ecb705f5b71c0571ee127bb92381"
+  },
+  {
+    "panel": "3C",
+    "file": "Figure_3C_mRNA_architecture_standardized_beta_5x6.png",
+    "pixels": [
+      3000,
+      3600
+    ],
+    "inches": [
+      5.0,
+      6.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "e2e37a9d8002c06821cb613c6f34f18e360ca8922939983abb289660b76238bb"
+  },
+  {
+    "panel": "3D",
+    "file": "Figure_3D_matched_3UTR_association_clean_5x6.png",
+    "pixels": [
+      3000,
+      3600
+    ],
+    "inches": [
+      5.0,
+      6.0
+    ],
+    "dpi": 600,
+    "rgbSHA256": "8ba8bd8974c6c0a571ad47972a3741a3828e3cbb4050e1430d8df4be7999edb6"
+  }
+]

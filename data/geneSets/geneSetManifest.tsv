@@ -1,0 +1,6 @@
+collection	fileName	sourceLibrary	sourceTerms	terms	retrievedDate	sourceUrl
+goBiologicalProcess	goBiologicalProcess2026.gmt	GO_Biological_Process_2026	all	5952	2026-08-27	https://maayanlab.cloud/Enrichr/
+goCellularComponent	goCellularComponent2026.gmt	GO_Cellular_Component_2026	all	506	2026-08-27	https://maayanlab.cloud/Enrichr/
+goMolecularFunction	goMolecularFunction2026.gmt	GO_Molecular_Function_2026	all	1394	2026-08-27	https://maayanlab.cloud/Enrichr/
+synGO	synGO2024.gmt	SynGO_2024	all	134	2026-08-27	https://maayanlab.cloud/Enrichr/
+fuAsd	fuAsd2022.gmt	Fu et al. 2022 Supplementary Table 11	ASD72;ASD185	2	2026-09-04	https://doi.org/10.1038/s41588-022-01104-0
