@@ -1,4 +1,4 @@
-"""Reproduce the exact-sequence-matched 3â€² UTR analysis in Figure 3D."""
+"""Reproduce the exact-sequence-matched 3′ UTR analysis in Figure 3D."""
 
 import argparse
 import json

@@ -245,7 +245,7 @@ arrow(2.5, 3.46, 2.5, 3.61)
 text(2.5, 3.77, 'Matched RNA pools from each culture', 9.5)
 for x, m, label, definition in [
     (1.03, 'o', 'Input', 'Unfractionated'),
-    (2.50, '^', 'Monosome', 'Pooled 40Sâ€“80S'),
+    (2.50, '^', 'Monosome', 'Pooled 40S–80S'),
     (3.97, 's', 'Polysome', 'Pooled polysomes'),
 ]:
     for yy, c in [(4.02, green), (4.23, red)]:
@@ -257,14 +257,14 @@ ax.plot([1.03, 1.03, 3.97, 3.97], [4.87, 4.97, 4.97, 4.87], color = line, lw = 0
 ax.plot([2.50, 2.50], [4.87, 4.97], color = line, lw = 0.7)
 arrow(2.5, 4.97, 2.5, 5.10)
 text(2.5, 5.25, '18 paired-end RNA-seq libraries', 10)
-text(2.5, 5.47, '2 individuals Ã— 3 cultures Ã— 3 fractions', 8.5, color = gray)
+text(2.5, 5.47, '2 individuals × 3 cultures × 3 fractions', 8.5, color = gray)
 ax.plot([0.23, 4.77], [5.66, 5.66], color = line, lw = 0.6)
 text(2.5, 5.88, 'RNA-seq processing and quantification', 10)
 text(2.5, 6.10, 'nf-core/rnaseq', 8, color = gray)
 for x, label, software in [
     (1.0, 'Read QC', 'FastQC / MultiQC'),
-    (2.5, 'Alignment', 'STAR Â· GRCh38'),
-    (4.0, 'Quantification', 'Salmon Â· GENCODE v50'),
+    (2.5, 'Alignment', 'STAR · GRCh38'),
+    (4.0, 'Quantification', 'Salmon · GENCODE v50'),
 ]:
     text(x, 6.33, label, 9)
     text(x, 6.55, software, 7.5, color = gray)
@@ -295,7 +295,7 @@ for r, c in enumerate([green, red]):
     for xx, m in [(3.60, 'o'), (3.88, '^'), (4.15, 's')]:
         marker(xx, yy, m, c, 16)
 text(3.65, 7.53, 'Sample metadata', 8.5)
-text(2.5, 7.82, 'Expression filtering Â· library QC Â· PCA', 8.5)
+text(2.5, 7.82, 'Expression filtering · library QC · PCA', 8.5)
 ax.plot([1.00, 3.35], [7.94, 7.94], color = line, lw = 0.75)
 ax.plot([2.5, 2.5], [7.91, 7.94], color = line, lw = 0.75)
 for x in [1.00, 3.35]:
@@ -325,7 +325,7 @@ box(1.94, 8.16, 2.82, 0.35, '#234E64', '#234E64', rounding = 0.025)
 text(3.35, 8.335, 'Redistribution', 10, color = 'white')
 text(3.35, 8.69, 'Monopoly', 10, color = ink)
 text(3.35, 8.95, 'Paired negative-binomial model', 9)
-text(3.35, 9.17, 'Culture + fraction + condition Ã— fraction', 7.8)
+text(3.35, 9.17, 'Culture + fraction + condition × fraction', 7.8)
 text(3.35, 9.40, 'Fraction-wise normalization', 8, color = gray)
 box(1.94, 9.53, 2.82, 0.35, '#263544', '#263544', rounding = 0.02, lw = 0.65)
 text(
@@ -336,7 +336,7 @@ text(
     color = 'white',
     fontfamily = 'Consolas',
 )
-text(3.35, 10.06, 'ASDâ€“Unaffected change in P/M', 8.5)
+text(3.35, 10.06, 'ASD–Unaffected change in P/M', 8.5)
 eq = text(
     3.35,
     10.42,
@@ -344,7 +344,7 @@ eq = text(
     16,
     math_fontfamily = 'dejavusans',
 )
-text(3.35, 10.80, r'Effects Â· uncertainty Â· adjusted $P$ values', 8)
+text(3.35, 10.80, r'Effects · uncertainty · adjusted $P$ values', 8)
 text(
     3.35,
     11.00,
@@ -359,7 +359,7 @@ ax.plot([3.35, 3.35], [11.07, 11.12], color = line, lw = 0.7)
 for x in [2.47, 4.23]:
     arrow(x, 11.21, x, 11.29)
 for x, label, detail, ref in [
-    (2.47, 'Gene-level', 'SynGO / ASD genes', 'Figure 2Câ€“I'),
+    (2.47, 'Gene-level', 'SynGO / ASD genes', 'Figure 2C–I'),
     (4.23, 'Transcript-level', 'UTRs / CDS / uORFs', 'Figure 3'),
 ]:
     text(x, 11.42, label, 9)
@@ -377,7 +377,7 @@ renderer = fig.canvas.get_renderer()
 outside = []
 labels = [t.get_text() for t in fig.findobj(Text) if t.get_visible()]
 assert "model.contrast('poly', 'mono')" in labels
-assert '2 individuals Ã— 3 cultures Ã— 3 fractions' in labels
+assert '2 individuals × 3 cultures × 3 fractions' in labels
 assert 'nf-core/rnaseq' in labels
 assert not any(
     'Individuals' in label or 'Cultures' in label or 'Fractions' in label

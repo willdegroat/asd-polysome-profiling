@@ -54,11 +54,11 @@ fig.text(0.035, 0.955, 'D', fontsize = 14, fontweight = 'bold', va = 'center')
 title = fig.text(
     0.14,
     0.955,
-    'Longer 3â€² UTRs are associated with lower P/M in ASD versus Unaffected',
+    'Longer 3′ UTRs are associated with lower P/M in ASD versus Unaffected',
     fontsize = 11,
     va = 'center',
 )
-fig.text(0.17, 0.885, 'Identical 5â€² UTR and CDS', fontsize = 9, ha = 'left')
+fig.text(0.17, 0.885, 'Identical 5′ UTR and CDS', fontsize = 9, ha = 'left')
 sk = fig.add_axes([0.17, 0.788, 0.78, 0.060])
 sk.set_xlim(0, 1)
 sk.set_ylim(0, 1)
@@ -79,7 +79,7 @@ for y, end in [(0.68, 0.68), (0.20, 0.96)]:
             (0.53, y - 0.035), end - 0.53, 0.07, fc = 'white', ec = 'black', lw = 0.75
         )
     )
-for xpos, label in [(0.11, '5â€² UTR'), (0.36, 'CDS'), (0.74, '3â€² UTR')]:
+for xpos, label in [(0.11, '5′ UTR'), (0.36, 'CDS'), (0.74, '3′ UTR')]:
     sk.text(xpos, 1.02, label, ha = 'center', fontsize = 8, clip_on = False)
 fig.text(0.17, 0.758, r'$P$ = 0.0118', fontsize = 8.5, color = blue)
 ax = fig.add_axes([0.17, 0.095, 0.78, 0.645])
@@ -114,7 +114,7 @@ ax.plot(xx, slope * xx, color = blue, lw = 1.7, zorder = 3)
 ax.set_xlim(xx.min(), xx.max())
 pad = (max(partial) - min(partial)) * 0.07
 ax.set_ylim(min(partial) - pad, max(partial) + pad)
-ax.set_xlabel('Relative 3â€² UTR length (SD)', labelpad = 7, fontsize = 9.5)
+ax.set_xlabel('Relative 3′ UTR length (SD)', labelpad = 7, fontsize = 9.5)
 ax.set_ylabel(
     'Adjusted P/M change\n' + r'($\log_2$ ASD/Unaffected)',
     labelpad = 7,

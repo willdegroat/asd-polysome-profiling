@@ -113,7 +113,7 @@ ax.set(xlim = (-3, 3), ylim = (8.5, -0.5))
 ax.set_yticks(np.arange(9))
 ax.tick_params(axis = 'y', length = 0, labelleft = False)
 ax.set_xticks(
-    [-3, -2, -1, 0, 1, 2, 3], ['âˆ’3', 'âˆ’2', 'âˆ’1', '0', '1', '2', '3'], fontsize = 9
+    [-3, -2, -1, 0, 1, 2, 3], ['−3', '−2', '−1', '0', '1', '2', '3'], fontsize = 9
 )
 ax.tick_params(axis = 'x', length = 3, width = 0.6, pad = 3)
 ax.set_axisbelow(True)

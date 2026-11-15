@@ -34,13 +34,13 @@ order = [
     'logThreePrimeUtrLength',
 ]
 labels = [
-    '5â€² UTR length',
-    '5â€² UTR GC fraction',
+    '5′ UTR length',
+    '5′ UTR GC fraction',
     'Contained candidate\nuORF',
     'Overlapping candidate\nuORF',
     'Kozak score',
     'CDS length',
-    '3â€² UTR length',
+    '3′ UTR length',
 ]
 d = (
     table[
@@ -145,7 +145,7 @@ for i, r in d.iterrows():
     fig.text(0.975, yy, text, ha = 'right', va = 'center', fontsize = 8.5)
 ax.set_ylim(6.6, -0.6)
 ax.set_xlim(-0.12, 0.15)
-ax.set_xticks([-0.10, 0, 0.10], ['âˆ’0.10', '0', '0.10'], fontsize = 8.5)
+ax.set_xticks([-0.10, 0, 0.10], ['−0.10', '0', '0.10'], fontsize = 8.5)
 ax.set_yticks(range(7))
 ax.tick_params(axis = 'y', length = 0, labelleft = False)
 ax.spines['left'].set_visible(False)

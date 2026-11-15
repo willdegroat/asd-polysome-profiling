@@ -37,13 +37,13 @@ python scripts/run_notebooks.py
 | `02_qc.ipynb` | Library and sample-level quality control |
 | `03_expression.ipynb` | Input RNA differential expression |
 | `04_fractions.ipynb` | Monosome and polysome differential abundance |
-| `05_redistribution.ipynb` | Paired polysomeâ€“monosome modeling with Monopoly |
+| `05_redistribution.ipynb` | Paired polysome–monosome modeling with Monopoly |
 | `06_sensitivity.ipynb` | Culture, normalization, and label sensitivity |
 | `07_enrichment.ipynb` | Ranked enrichment and overrepresentation analysis |
 | `08_integration.ipynb` | Cross-layer gene and pathway integration |
 | `09_transcripts.ipynb` | Differential transcript abundance |
 | `10_usage.ipynb` | Differential transcript usage with satuRn and stageR |
-| `11_architecture.ipynb` | Transcript and 5â€² UTR architecture |
+| `11_architecture.ipynb` | Transcript and 5′ UTR architecture |
 | `12_convergence.ipynb` | Fu et al. ASD-gene convergence |
 
 Gene-level models use Salmon length-scaled counts and PyDESeq2. Monopoly fits
